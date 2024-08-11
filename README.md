@@ -40,7 +40,7 @@ This project builds a face recognition system, drawing inspiration from the Face
 
 4. **Load Pre-trained Model:**
 
-   * **Model Architecture:** Understand that we are using a pre-trained FaceNet model based on the Inception architecture. You can examine the `inception_blocks_v2.py` file for more details on its implementation.
+   * **Model Architecture:** Understand that we use a pre-trained FaceNet model based on the Inception architecture. You can examine the `inception_blocks_v2.py` file for more details on its implementation.
    * **Load Weights:** Use the `load_weights_from_FaceNet` and `FRmodel.compile` functions to load the pre-trained weights into your Keras model. This saves significant training time and leverages existing knowledge.
 
 5. **Build the Face Encoding Database:**
